@@ -12,11 +12,10 @@
   "bugs": {
     "url": "https://github.com/amadormf/fatigue-test-mocha/issues"
   },
-  "main": "index.js",
   "scripts": {
     "postversion": "git push --follow-tags"
   },
-  "devDependencies": {
+  "dependencies": {
     "chai": "3.5.0",
     "mocha": "3.2.0",
     "sinon": "1.17.7",
