@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "fatigue-test-mocha",
   "description": "Add dependencies for test a javascript project with mocha, chai, sinon",
   "author": "Amador Mateo <amateofernandez@gmail.com>",
