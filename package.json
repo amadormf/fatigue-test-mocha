@@ -1,0 +1,30 @@
+{
+  "version": "0.0.1",
+  "name": "fatigue-test-mocha",
+  "description": "Add dependencies for test a javascript project with mocha, chai, sinon",
+  "author": "Amador Mateo <amateofernandez@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/amadormf/fatigue-test-mocha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadormf/fatigue-test-mocha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amadormf/fatigue-test-mocha/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "^1.0.0-alpha",
+    "mocha": "3.2.0",
+    "sinon": "1.17.7",
+    "sinon-chai": "2.8.0"
+  },
+  "engines": {
+    "node": ">=4.2.1",
+    "npm": ">=3"
+  }
+}
