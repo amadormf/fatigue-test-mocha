@@ -1,31 +1,19 @@
 # fatigue-test-mocha
-Add dependencies for test a javascript project with mocha, chai, sinon
+Add dependencies for test a javascript project with:
+  * chai
+  * mocha
+  * sinon
+  * sinon-chai
 
 ## Installation
 ```bash
-$ npm i --save fatigue-test-mocha
+$ npm i --save-dev fatigue-test-mocha
 ```
 
-## Usage
-```javascript
-
-```
-
-## Scripts
-* `npm run compile` - Compiles source files to disk (~/lib).
-* `npm run compile:watch` - Same as `npm run compile` but watches files for changes.
-* `npm run lint` - Lints source and test files.
-* `npm run lint:fix` - Lints files and attempts to fix any issues.
-* `npm run test` - Runs unit tests.
-* `npm run test:watch` - Same as `npm test` but watches files for changes.
-* `npm run test:cov` - Generates a test coverage report.
-
-## Distribution
-Execute one of the following commands
+Or
 ```bash
-npm version patch -m "Bump to %s"
-npm version minor -m "Bump to %s"
-npm version major -m "Bump to %s"
+$ yarn add --dev fatigue-test-mocha
 ```
+
 ## License
 MIT
