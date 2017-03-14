@@ -4,6 +4,7 @@ Add dependencies for test a javascript project with:
   * mocha
   * sinon
   * sinon-chai
+  * proxyquire
 
 ## Installation
 ```bash
